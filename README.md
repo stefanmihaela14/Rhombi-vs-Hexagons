@@ -16,9 +16,13 @@
 ### Tema1.cpp
 Important functions:
     - Init(): main logic of the game. 
+    
     - RenderMap(): Initializing the necessary Mashes, screen resolution, camera position, translations steps, scale factors and adding static elements like the 3 lives and 3 stars given to the player at the begining of each game.
+    
     - Update(): Render the mashes for the grid and the user interface's elements (the possible rhombuses, how mamy stars each consts and the number of lives and stars a player has).
+    
     - OnMouseBtnPress(): verify if a players has clicked on an element (rhombus or collectable star) and check if the criteria for each action to be performed are met. (contains the drag-and-drop functionality for moving the rhombuses around the screen) 
+    
     - OnMouseBtnRelease(): verify if a rhombus has been placed corectly inside a grid's square.
   
 ### Tema1.h
